@@ -12,7 +12,7 @@ const Nav = () => {
                     <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">Global <span className='text-blue-600'>Prosperity</span> Index</span>
                 </a>
                 <div class="flex sm:my-0 my-2 md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                    <a href="../../../Gpi doc.pdf" download class="inline-flex justify-center items-center py-1 px-2 mx-2 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    <a href="/Gpi doc.pdf" download class="inline-flex justify-center items-center py-1 px-2 mx-2 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                         Research
                         <svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778" />
