@@ -98,3 +98,30 @@
     left: 50%;
   }
 }
+
+/* Add these styles for the modal */
+#chart-type-modal:not(.hidden) {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#chart-type-modal .relative {
+    margin: auto;
+}
+
+/* Add these styles for the modal positioning */
+#default-modal:not(.hidden) {
+    display: flex !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#default-modal .relative {
+    margin: auto;
+}
+
+/* Ensure modal content is above the backdrop */
+.modal-content {
+    position: relative;
+    z-index: 1001;
+}

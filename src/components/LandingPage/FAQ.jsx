@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { initFlowbite } from 'flowbite';
 
 const FAQ = () => {
+    useEffect(() => {
+        // Initialize Flowbite when FAQ component mounts
+        initFlowbite();
+    }, []);
+
     return (
         <>
             <h2 class="mb-4 text-4xl text-center mb-8 tracking-tight font-bold text-gray-900 dark:text-white">Frequently Asked Question</h2>
