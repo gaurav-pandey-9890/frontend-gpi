@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
 
             <a href="/index" class = ''>
-                <img id="scalable-image" class="h-auto sm:max-w-6xl max-w-full blur-sm hover:blur-none transition-all duration-300 rounded-lg shadow-xl dark:shadow-gray-800 border-gray-400 mx-auto" src="../../../bg.png" alt="image description" />
+                <img id="scalable-image" class="h-auto sm:max-w-6xl max-w-full blur-sm hover:blur-none transition-all duration-300 rounded-lg shadow-xl dark:shadow-gray-800 border-gray-400 mx-auto" src="/bg.png" alt="image description" />
             </a>
         </section>
     )
